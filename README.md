@@ -64,30 +64,30 @@ Na "Figura 3", observamos que a esteira "Entry conveyuor" funciona de forma um p
 
 ### Ordenação
 
+Para ativar o ordenador, o “Vision sensor” verifica se existe algum pacote com uma determinada cor, essa verificação ocorre analisando se o valor obtido pelo “Vision sensor” corresponde à algum pacote com a cor correspondente, ou seja, se
+
+| cor   | números dos pacotes | ordenador ativado |
+| ----- | ------------------- | ----------------- |
+| azul  | se == 1, 2 ou 3     | 1º                |
+| verde | se == 4, 5 ou 6     | 2º                |
+| cinza | se == 7, 8 ou 9     | 3º                |
+
+Além disso, durante a verificação do pacote, é realizado também a análise da “Stop blade”, onde caso exista um pacote com uma das cores(azul, verde ou cinza) e verificado que a "Stop blade" está aberta, a variável “Timer memory” é ativada e mantida assim, até o sensor “At exit” detectar que algum pacote já foi ordenado. Durante a ativação dos ordenadores são aplicados os timers TON e TOF, que aplicam os delays de 0.65s no início e 1s no final do “Sorter turn”, respectivamente. Os ordenadores das demais cores funcionam de forma análoga ao código exibido na "Figura 4".
+
 <div align="center">
   <img src=https://github.com/WalmerAlmeida/Sorting-Station-Automacao/blob/main/imgs/Ordenacao1.png />
   
   **Figura 4**: Ordenação parte 1.
 </div>
 
-<div align="center">
-  <img src=https://github.com/WalmerAlmeida/Sorting-Station-Automacao/blob/main/imgs/Ordenacao2.png />
-  
-  **Figura 5**: Ordenação parte 2.
-</div>
-
-<div align="center">
-  <img src=https://github.com/WalmerAlmeida/Sorting-Station-Automacao/blob/main/imgs/Ordenacao3.png />
-  
-  **Figura 6**: Ordenação parte 3.
-</div>
-
 ### Stop blade
+
+Quanto ao funcionamento da "Stop blade", temos que ela é ativada sempre que não existe nenhum pacote no "Vision sensor" ou quando algum pacote está sendo ordenado na esteira de saída(Exit conveyour).
 
 <div align="center">
   <img src=https://github.com/WalmerAlmeida/Sorting-Station-Automacao/blob/main/imgs/Stop_blade.png />
   
-  **Figura 7**: Stop blade.
+  **Figura 5**: Stop blade.
 </div>
 
 ## Tabela de Endereçamento
