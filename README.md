@@ -4,6 +4,47 @@
 
 ## Descrição Lógica
 
+<div align="center">
+  <img src=https://github.com/WalmerAlmeida/Sorting-Station-Automacao/blob/main/imgs/Painel.png />
+  
+  **Figura 1**: Painel.
+</div>
+
+<div align="center">
+  <img src=https://github.com/WalmerAlmeida/Sorting-Station-Automacao/blob/main/imgs/Esteiras1.png />
+  
+  **Figura 2**: Esteiras parte 1.
+</div>
+
+<div align="center">
+  <img src=https://github.com/WalmerAlmeida/Sorting-Station-Automacao/blob/main/imgs/Esteiras2.png />
+  
+  **Figura 3**: Esteiras parte 2.
+</div>
+
+<div align="center">
+  <img src=https://github.com/WalmerAlmeida/Sorting-Station-Automacao/blob/main/imgs/Ordenacao1.png />
+  
+  **Figura 4**: Ordenação parte 1.
+</div>
+
+<div align="center">
+  <img src=https://github.com/WalmerAlmeida/Sorting-Station-Automacao/blob/main/imgs/Ordenacao2.png />
+  
+  **Figura 5**: Ordenação parte 2.
+</div>
+
+<div align="center">
+  <img src=https://github.com/WalmerAlmeida/Sorting-Station-Automacao/blob/main/imgs/Ordenacao3.png />
+  
+  **Figura 6**: Ordenação parte 3.
+</div>
+
+<div align="center">
+  <img src=https://github.com/WalmerAlmeida/Sorting-Station-Automacao/blob/main/imgs/Stop_blade.png />
+  
+  **Figura 7**: Stop blade.
+</div>
 
 ## Tabela de Endereçamento
 
