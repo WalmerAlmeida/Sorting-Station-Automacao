@@ -18,14 +18,14 @@
 ### **Funcionamento**
 
 1. O processo inicia-se ao pressionar o botão “start”
-    Com o acionamento do botão, o emitter irá iniciar a produção de 3 tipos de pacotes distintos de forma aleatória.
-2.  Enquanto o emitter produz novos pacotes, a esteira A deve conduzi-los até o vision sensor, cuja função é identificar a cor do pacote.
-3.  Após identificar uma determinada cor, o vision sensor “emite” o comando para que o ordenador (esteira auxiliar) responsável por essa cor seja ativado. A esteira B, então, conduz o pacote até o ordenador em funcionamento para que o pacote seja endereçado ao seu grupo correspondente.
-4.  No sistema, há, ainda, a presença de uma stop blade, que servirá como uma cancela de segurança. A stop blade deverá ser tratada como um circuito normalmente fechado, ou seja, sua posição inicial e normal é levantada (ativa).
+    Com o acionamento do botão, o emitter irá iniciar a produção de 3 tipos de pacotes distintos de forma aleatória;
+2.  Enquanto o emitter produz novos pacotes, a esteira A deve conduzi-los até o vision sensor, cuja função é identificar a cor do pacote;
+3.  Após identificar uma determinada cor, o vision sensor “emite” o comando para que o ordenador (esteira auxiliar) responsável por essa cor seja ativado. A esteira B, então, conduz o pacote até o ordenador em funcionamento para que o pacote seja endereçado ao seu grupo correspondente;
+4.  No sistema, há, ainda, a presença de uma stop blade, que servirá como uma cancela de segurança. A stop blade deverá ser tratada como um circuito normalmente fechado, ou seja, sua posição inicial e normal é levantada (ativa);
 5.  A stop blade deverá ser desativada (baixada) se e somente se as duas condições abaixo forem satisfeitas:
     1.  a entrada do vision sensor é diferente de zero, ou seja, há algum pacote no range de detecção do sensor e;
     2. não há ordenador ativo;
-6. A stop blade sempre deverá voltar à posição inicial após um atraso de 0.65seg para que não haja conflito entre a interação stop blade/pacote
+6. A stop blade sempre deverá voltar à posição inicial após um atraso de 0.65seg para que não haja conflito entre a interação stop blade/pacote;
 	 
 
 
