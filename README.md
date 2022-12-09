@@ -68,9 +68,9 @@ Para ativar o ordenador, o “Vision sensor” verifica se existe algum pacote c
 
 | cor   | números dos pacotes | ordenador ativado |
 | ----- | ------------------- | ----------------- |
-| azul  | se == 1, 2 ou 3     | 1º                |
-| verde | se == 4, 5 ou 6     | 2º                |
-| cinza | se == 7, 8 ou 9     | 3º                |
+| azul  | 1, 2 ou 3           | 1º                |
+| verde | 4, 5 ou 6           | 2º                |
+| cinza | 7, 8 ou 9           | 3º                |
 
 Além disso, durante a verificação do pacote, é realizado também a análise da “Stop blade”, onde caso exista um pacote com uma das cores(azul, verde ou cinza) e verificado que a "Stop blade" está aberta, a variável “Timer memory” é ativada e mantida assim, até o sensor “At exit” detectar que algum pacote já foi ordenado. Durante a ativação dos ordenadores são aplicados os timers TON e TOF, que aplicam os delays de 0.65s no início e 1s no final do “Sorter turn”, respectivamente. Os ordenadores das demais cores funcionam de forma análoga ao código exibido na "Figura 4".
 
