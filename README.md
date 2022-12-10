@@ -154,4 +154,4 @@ Quanto ao funcionamento da "Stop blade", temos que ela é ativada sempre que nã
 
 ## Vídeo da Simulação e explicação(entrar com conta da ic.ufal.br)
 
-<video src='https://www.youtube.com/embed/nb5dSuqP0Ik' title='sorting-station'></video>
+[![Sorting Station](https://imgur.com/a/CWDzz3s)](https://imgur.com/a/CWDzz3s "Sorting Station")
